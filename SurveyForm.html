@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+</head>
+<body>
+<div class="head">
+    <h2 style="text-align : center;">Survey Form</h2>
+    <p class="form">Let us know how we can improve freeCodeCamp
+
+        <br><br>*Name :
+        <input type="text" name = "name">
+
+        <br><br>*Email :
+        <input type="text" name = "email">
+
+        <br><br>*Age :
+        <input type="text" name = "age">
+
+        <br><br><tr class="label">Which option best describes your current role?</tr>
+            <td class="contents">
+            <select class="option" name="job">
+                <option value="student">Student</option>
+            </select>
+            </td>
+
+            <br><br><tr class="label2">How Likely is that you would recommend FreeCodeCamp to a friend?</tr><br>
+            <label2 for="definitely">definitely</label2>
+            <input type="radio" name="definitely" id="definitely" value="definitely"><br>
+            <label2 for="Maybe">Maybee</label2>
+            <input type="radio" name="maybe" id="maybe" value="maybe"><br>
+            <label2 for="notsure">Not sure</label2>
+            <input type="radio" name="notsure" id="notsure" value="notsure">
+
+    <br><br>
+    <tr>
+    <td class="label">What do you like most in FCC:</td>
+    <td class="contents">
+        <select class="option" name="like">
+            <option value="">Select an option</option>
+        </select>
+    </td>
+    </tr>
+
+    <br><br>
+    <tr>
+    <td class="label">
+        Things that should be improved in the future
+        (Check all that apply):<br>
+    </td>
+    <input type="checkbox" name="front" value="front"> Front-end Projects<br>
+    <input type="checkbox" name="back" value="back"> Back-end Projects<br>
+    <input type="checkbox" name="data" value="data"> Data Visualization<br>
+   </tr>
+
+
+
+
+
+
+
+
+
+
+    </p>
+
+</div>
+
+
+
+</body>
+</html>

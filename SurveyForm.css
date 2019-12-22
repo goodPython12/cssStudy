@@ -1,0 +1,25 @@
+
+.head{
+    background-color: #a9d7d1;
+    padding: 15px;
+}
+
+
+.form{
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+
+
+}
+
+.label {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.label2 {
+    cursor: default;
+
+
+}
